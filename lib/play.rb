@@ -36,3 +36,15 @@ def turn(board)
 end
 
 # Define your play method below
+
+def play(board)
+  
+  turn(board)
+  position_taken?(board, location)
+  turn(board)
+  position_taken?(board, location)
+end
+  
+  # loop do 
+  #   turn(board)
+  #   break if  position_taken?(board, location) == (board, 9)
