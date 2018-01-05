@@ -40,9 +40,10 @@ end
 def play(board)
   
   turn(board)
-  position_taken?(board, location)
-  turn(board)
-  position_taken?(board, location)
+  loop do
+    turn(board)
+    break if 
+  end 
 end
   
   # loop do 
