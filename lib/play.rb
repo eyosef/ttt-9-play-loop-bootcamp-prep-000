@@ -46,6 +46,3 @@ def play(board)
   end 
 end
   
-  # loop do 
-  #   turn(board)
-  #   break if  position_taken?(board, location) == (board, 9)
