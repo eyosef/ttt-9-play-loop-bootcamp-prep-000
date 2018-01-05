@@ -42,7 +42,7 @@ def play(board)
   turn(board)
   loop do
     turn(board)
-    break if board = 
+    break if board =  ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
   end 
 end
   
