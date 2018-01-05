@@ -42,7 +42,7 @@ def play(board)
   turn(board)
   loop do
     turn(board)
-    break if 
+    break if board = 
   end 
 end
   
